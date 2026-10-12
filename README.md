@@ -2,6 +2,8 @@
 
 Animated Colossal Titan watch face for the Amazfit Bip Max.
 
+![Colossal watch face preview](art/preview.gif)
+
 Use [Node.js 22 LTS](https://nodejs.org/en/download).
 
 ## 1. Download and install dependencies
