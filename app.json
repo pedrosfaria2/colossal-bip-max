@@ -1,0 +1,52 @@
+{
+  "configVersion": "v3",
+  "app": {
+    "appId": 1200612,
+    "appName": "Colossal",
+    "appType": "watchface",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "vender": "Pedro",
+    "description": "Colossal Titan, animated steam and current data",
+    "icon": "preview.png",
+    "cover": [
+      "preview.png"
+    ]
+  },
+  "permissions": [],
+  "runtime": {
+    "apiVersion": {
+      "minVersion": "1.0.0",
+      "target": "4.4.0",
+      "compatible": "1.0.0"
+    }
+  },
+  "targets": {
+    "bip-max.s": {
+      "module": {
+        "watchface": {
+          "path": "watchface/index",
+          "main": 1,
+          "editable": 0,
+          "lockscreen": 0
+        }
+      },
+      "platforms": [
+        {
+          "name": "Amazfit Bip Max",
+          "deviceSource": 11206915
+        }
+      ],
+      "designWidth": 432
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Colossal"
+    }
+  },
+  "defaultLanguage": "en-US",
+  "debug": false
+}
